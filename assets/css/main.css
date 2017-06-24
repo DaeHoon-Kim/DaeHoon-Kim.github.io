@@ -1,4 +1,4 @@
-@import url("font-awesome.min.css");
+feature-icons@import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 
 /*
@@ -2104,6 +2104,7 @@
 					top: 0;
 					width: 2.5em;
 				}
+				ul.feature-icons li span {float:left; display:block;}	
 
 		ul.icons {
 			cursor: default;
