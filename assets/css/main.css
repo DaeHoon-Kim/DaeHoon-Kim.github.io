@@ -2104,6 +2104,11 @@
 					top: 0;
 					width: 2.5em;
 				}
+				#career ul.feature-icons li ul.career_detail li {
+					padding:0px;
+					margin-botom:10px;
+}
+					
 
 		ul.icons {
 			cursor: default;
