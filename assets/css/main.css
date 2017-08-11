@@ -2107,8 +2107,12 @@
 				#career ul.feature-icons li ul.career_detail li {
 					padding:0px;
 					margin-bottom:10px;
-}
-					
+				}
+
+				#career ul.feature-icons li ul.career_detail li.company {
+					font-weight:bold;
+				}
+
 
 		ul.icons {
 			cursor: default;
