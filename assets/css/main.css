@@ -2106,6 +2106,8 @@
 				#career ul.feature-icons li ul.career_detail li {
 					padding:0px;
 					margin-bottom:10px;
+					margin-right:18px;
+					display:inline-block;
 				}
 
 				#career ul.feature-icons li ul.career_detail li.company {
