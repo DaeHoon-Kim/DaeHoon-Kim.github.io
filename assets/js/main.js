@@ -3,9 +3,20 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
 (function($) {
-
+    /*더보기버튼*/
+    $(document).ready(function () {
+    // Load the first 3 list items from another HTML file
+    //$('#myList').load('externalList.html li:lt(3)');
+        $('#portfolio .features article:lt(3)').show();
+        $('#loadMore').click(function () {
+            $('#portfolio .features article:lt(5)').show();
+        });
+        $('#showLess').click(function () {
+            $('#portfolio .features article').not(':lt(3)').hide();
+        });
+    });
+    
 	skel.breakpoints({
 		xlarge: '(max-width: 1680px)',
 		large: '(max-width: 1280px)',
